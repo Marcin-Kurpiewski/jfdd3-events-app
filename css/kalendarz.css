@@ -1,0 +1,31 @@
+.menu-glowne
+{
+    height: 10%;
+    background-color: black;
+    color: white;
+}
+.guzik
+{
+    border: solid white 1px;
+}
+
+
+.kalenarz-nawigacja
+{
+    height: 25%;
+    background-color: black;
+    color: white;
+}
+
+.eventy-main
+{
+    height: 55%;
+}
+
+
+.stopka
+{
+    height: 10%;
+    background-color: black;
+    color: white;
+}
