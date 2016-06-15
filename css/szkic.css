@@ -36,47 +36,13 @@ body {
     top: 1.5%;
     right: 5%;
 }
-
-.nawigacja
-{
-    background-color: #444444;
-    width: 100vw;
-    height: 10vh;
-}
-
-.nawigacja-lista
-{
+.block {
     position: absolute;
-    background-color: #444444;
-    width: 1300px;
+    background-color: #abc;
+    left: 5vw;
+    width: 1400px;
     height: 10vh;
-    left: 5%;
-}
-.guzik
-{
-    width: 5%;
-    color: white;
-    display: inline-block;
-    text-align: center;
-    font-size: 1.2em;
-    padding-top: 0.3em;
-    position: absolute;
-    z-index: 101;
-}
-.guzik a
-{
-    color: white;
-    text-decoration: none;
-}
-#lewy
-{
-    left: 2%;
-    top: 9vh;
-}
-#prawy
-{
-    right: 2%;
-    top: 9vh;
+    margin: 5px;
 }
 .lista
 {
@@ -124,18 +90,30 @@ body {
 {
     color: black;
 }
-.glowny-content
-{
-    width: 100vw;
-    height: 80vh;
-    background-color: #2aabd2;
-}
-.stopka
-{
-    width: 100%;
-    height: 5vh;
-    position: fixed;
-    top: 95vh;
-    background-color: #444444;
-}
 
+.guzik
+{
+    width: 5%;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 0.3em;
+    position: absolute;
+    z-index: 101;
+}
+.guzik a
+{
+    color: white;
+    text-decoration: none;
+}
+#left
+{
+    left: 2%;
+    top: 9vh;
+}
+#right
+{
+    right: 2%;
+    top: 9vh;
+}

@@ -15,9 +15,9 @@
 })*/
 
 $( "#prawy" ).click(function() {
-    $( ".lista" ).animate({ "left": "+=150px" }, "slow" );
+    $( ".nawigacja-lista" ).animate({ "right": "+=100px" }, "slow" );
 });
 
 $( "#lewy" ).click(function(){
-    $( ".lista" ).animate({ "left": "-=150px" }, "slow" );
+    $( ".nawigacja-lista" ).animate({ "left": "-=100px" }, "slow" );
 });
