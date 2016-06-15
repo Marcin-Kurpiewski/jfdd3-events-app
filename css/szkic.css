@@ -117,3 +117,20 @@ body {
     right: 2%;
     top: 9vh;
 }
+
+.glowny-content
+{
+    position: absolute;
+    top: 17vh;
+    width: 100vw;
+    height: 80vh;
+    background-color: #2aabd2;
+}
+.stopka
+{
+    width: 100%;
+    height: 5vh;
+    position: fixed;
+    top: 95vh;
+    background-color: #444444;
+}
