@@ -18,7 +18,7 @@
 
     <span class="logo">EVENT CALENDAR</span>
 
-<button id="left" class="guzik">&laquo;</button>
+<div id="left" class="guzik"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
 
 <div class="block">
     <ul class="lista">
@@ -37,13 +37,13 @@
     </ul>
 </div>
 
-<button id="right" class="guzik">&raquo;</button>
+<div id="right" class="guzik"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
 
 
     <div class="glowny-content"></div>
     <div class="stopka"></div>
 
-<script>
+<!--<script>
     $( "#right" ).click(function() {
         $( ".block" ).animate({ "left": "+=150px" }, "slow" );
     });
@@ -51,7 +51,8 @@
     $( "#left" ).click(function(){
         $( ".block" ).animate({ "left": "-=150px" }, "slow" );
     });
-</script>
-
+</script>-->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="js/nawigacja.js"></script>
 </body>
 </html>

@@ -1,6 +1,7 @@
 body {
     font-family: Open Sans;
     overflow: hidden;
+    background-color: #444444;
 }
 .logo-menu
 {
@@ -38,7 +39,7 @@ body {
 }
 .block {
     position: absolute;
-    background-color: #abc;
+    background-color: #444444;
     left: 5vw;
     width: 1400px;
     height: 10vh;
@@ -90,14 +91,23 @@ body {
 {
     color: black;
 }
-
+/*.unter1
+{
+    background-color: #444444;
+    height: 10vh;
+    position: absolute;
+    top: 7vh;
+    left: 0;
+}*/
 .guzik
 {
     width: 5%;
+    height: 8vh;
     color: white;
+    background-color: #444444;
     display: inline-block;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 2em;
     padding-top: 0.3em;
     position: absolute;
     z-index: 101;
@@ -109,12 +119,12 @@ body {
 }
 #left
 {
-    left: 2%;
+    left: 0;
     top: 9vh;
 }
 #right
 {
-    right: 2%;
+    right: 0;
     top: 9vh;
 }
 
@@ -123,14 +133,15 @@ body {
     position: absolute;
     top: 17vh;
     width: 100vw;
-    height: 80vh;
+    height: 77vh;
     background-color: #2aabd2;
+    z-index: 10;
 }
 .stopka
 {
     width: 100%;
-    height: 5vh;
+    height: 8vh;
     position: fixed;
-    top: 95vh;
+    top: 92vh;
     background-color: #444444;
 }
