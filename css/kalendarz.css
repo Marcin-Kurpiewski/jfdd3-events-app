@@ -79,40 +79,57 @@ body {
     text-decoration: none;
 }
 
-/*.nawagacja-lista
-{
-    width: 100%;
-}*/
 .lista
 {
+    background-color: #444444;
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat-x;
     display: inline-block;
+    width: 100%;
     text-align: center;
     margin-left: 5%;
+    z-index: 99;
 }
+
 
 .lista li
 {
     display: inline-block;
-    text-align: center;
+    text-align: justify;
+    border: 2px solid white;
     font-size: 1em;
-
+    position: relative;
 }
 
 .lista li a
 {
     width: 15%;
-    padding: 0.6em;
+    padding: 0.1em;
     margin: 0 1em;
-    border: 2px solid white;
     color: white;
     text-decoration: none;
 }
 
+.lista li:hover
+{
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+.lista li a:hover
+{
+    color: black;
+}
+
 .glowny-content
 {
-    height: 45%;
+    min-height: 40%;
     width: 100%;
-    background-color: white;
+    background-color: blue;
+    z-index: 100;
 }
 
 
